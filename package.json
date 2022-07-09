@@ -1,0 +1,23 @@
+{
+  "name": "vpn_sib-telegram_bot",
+  "version": "0.0.1",
+  "description": "VPN Sib telegram bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "back": "nohup node index &",
+    "pm2": "pm2 start index.js"
+  },
+  "keywords": [],
+  "author": "Kennix88 <it38kent@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5",
+    "telegraf-i18n": "^6.6.0"
+  }
+}
